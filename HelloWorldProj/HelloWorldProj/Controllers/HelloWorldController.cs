@@ -14,6 +14,7 @@ namespace HelloWorldProj.Controllers
         public HelloWorldEngine engine = new HelloWorldEngine();
 
         //public web api method to return the string hello world to the user's device
+        // GET api/HelloWorld
         public HttpResponseMessage getHelloWorld()
         {            
             //get hello world object
@@ -25,6 +26,12 @@ namespace HelloWorldProj.Controllers
             response.Content = new ObjectContent<HelloWorldObject>(helloWorldObject, new JsonMediaTypeFormatter(), "application/json");
             return response;
         }
+
+        // POST api/HelloWorld
+        //public void Post([FromBody]string value)
+        //{
+        //    engine.save(value);
+        //}
 
     }
 }

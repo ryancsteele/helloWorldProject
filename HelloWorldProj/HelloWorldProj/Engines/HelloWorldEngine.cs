@@ -13,6 +13,11 @@ namespace HelloWorldProj
             return helloWorldObject;
         }
 
+        //public void save ()
+        //{
+        //    //this does nothing for now but it would get the database context, add the new entry to the context, and save the context
+        //}
+
     }
 
     public class HelloWorldObject
