@@ -16,3 +16,7 @@ When ran locally, hitting http://localhost:56879/api/HelloWorld (or whichever po
 
 The test class will send a mock http request and parse the json object out of the response.
 
+# please excuse the mess
+
+Visual studio likes to bundle in a bunch of stuff when you create an ASP Web Services project. Please ignore all the junk.
+
