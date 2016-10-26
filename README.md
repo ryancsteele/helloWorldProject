@@ -2,13 +2,13 @@
 
 The files related to this code exam are:
 
-*/HelloWorldProj/Engines/HelloWorldEngine
-*/HelloWorldProj/Controllers/HelloWorldController
-*/HelloWorldProj.Tests/Controllers/HelloWorldController
+* /HelloWorldProj/Engines/HelloWorldEngine
+* /HelloWorldProj/Controllers/HelloWorldController
+* /HelloWorldProj.Tests/Controllers/HelloWorldController
 
 and the configs can be found under:
 
-*/HelloWorldProj/
+* /HelloWorldProj/
 
 # what this does
 
